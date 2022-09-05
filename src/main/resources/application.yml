@@ -1,0 +1,13 @@
+#https://github.com/TechPrimers/spring-boot-mysql-example/blob/master/src/main/resources/application.yml
+
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/test
+    username: root
+    password: root123
+  jpa:
+    hibernate: 
+      ddl-auto: update
+    generate-ddl: true
+    show-sql: true 
